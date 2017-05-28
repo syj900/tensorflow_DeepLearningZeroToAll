@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bfbaa11-c8ea-4715-bd64-4a7c2f4a7810" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab02-2-linear_regression_feed.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab02-3-linear_regression_tensorflow.org.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -280,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495993585211</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab02-2 - linear_regression_tensorflow.org">
+      <created>1495996216649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495996216649</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -313,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab02_1 - Linear_regression" />
     <MESSAGE value="lab02-1 - Linear_regression" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab02-1 - Linear_regression" />
+    <MESSAGE value="lab02-2 - linear_regression_tensorflow.org" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab02-2 - linear_regression_tensorflow.org" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
