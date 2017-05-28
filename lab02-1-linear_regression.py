@@ -1,7 +1,7 @@
 """
 신윤중
 2017-5-28
-lab02_1 - linear_regression
+lab02-1 - linear_regression
 """
 
 import tensorflow as tf
