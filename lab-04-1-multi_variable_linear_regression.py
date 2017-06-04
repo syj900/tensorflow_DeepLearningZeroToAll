@@ -1,6 +1,6 @@
 """
 신윤중
-2017-5-28
+2017-06-04
 lab-04-1-multi_variable_linear_regression
 """
 import tensorflow as tf
@@ -12,7 +12,7 @@ x3_data = [75., 93., 90., 100, 70.]
 
 y_data = [152., 185., 180., 196., 142.]
 
-# placegolder for a tensor that will be always fed.
+# placeholder for a tensor that will be always fed.
 x1 = tf.placeholder(tf.float32)
 x2 = tf.placeholder(tf.float32)
 x3 = tf.placeholder(tf.float32)
@@ -28,10 +28,10 @@ hypothesis = x1 * w1 + x2 * w2 + x3 * w3 + b
 print(hypothesis)
 
 # cost/loss function
-cost = tf.reduce_mean(tf.square(hypothesis - Y))
+cost = tf.reduce_mean(tf.square(hypothesis - Y))    # 오차 제곱의 평균
 
 # Minimize. Need a very small learning rate for this data set
-optimizer = tf.train.GradientDescentOptimizer(learning_rate=1e-5)
+optimizer = tf.train.GradientDescentOptimizer(learning_rate=1e-5)   # 0.00001의 표현
 train = optimizer.minimize(cost)
 
 # Launch the graph in a session
